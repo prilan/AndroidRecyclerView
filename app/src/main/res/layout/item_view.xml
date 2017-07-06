@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/imageButtonInfo"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="@dimen/margin_icons"
+                    android:layout_marginTop="@dimen/margin_icons"
+                    android:background="@color/common_background_icons"
+                    app:srcCompat="@android:drawable/ic_menu_info_details"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textViewBase"
+                    style="@style/CommonText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_top"
+                    android:lineSpacingExtra="8sp"
+                    android:text="TextViewBase"
+                    android:textColor="@color/base_message_font"
+                    android:textSize="@dimen/base_message_size" />
+
+                <TextView
+                    android:id="@+id/textViewTime"
+                    style="@style/CommonText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_bottom"
+                    android:layout_marginTop="@dimen/margin_top_time"
+                    android:lineSpacingExtra="4sp"
+                    android:text="TextViewTime"
+                    android:textColor="@color/time_message_font"
+                    android:textSize="@dimen/time_message_size" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/imageButton"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="@dimen/margin_icons"
+                    android:layout_marginTop="@dimen/margin_icons"
+                    android:background="@color/common_background_icons"
+                    app:srcCompat="@android:drawable/ic_media_play"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/common_line"
+        ></LinearLayout>
+
+</LinearLayout>

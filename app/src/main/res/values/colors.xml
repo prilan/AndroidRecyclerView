@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="common_background_icons">#ffffff</color>>
+    <color name="colorPrimary">#27c89b</color>
+    <color name="colorPrimaryDark">#21ab85</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="common_line">#f2f4f7</color>
+    <color name="base_message_font">#de000000</color>
+    <color name="time_message_font">#8b000000</color>
+    <color name="date_text">#a9aab1</color>
+    <color name="background_date">#f2f4f7</color>
+</resources>
